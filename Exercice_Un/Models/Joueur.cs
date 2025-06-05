@@ -9,29 +9,28 @@ namespace Exercice_Un.Models
 {
     internal class Joueur
     {
-        private string _nom;
-        public string Nom { get; set; }
 
-        private Pions _pions;
+        public string Nom { get; set; }
         public Pions Pion { get; set; }
 
 
         private int _position = 0;
-        public int Position
-        {
-            get
-            {
-                return _position;
-            }
-        }
+        public int Position { get; private set; }
+        
 
         private int _solde;
-        public int Solde
+        public int Solde { get; private set; }
+
+        private List<CasePropriete> _proprietes;
+        public List<CasePropriete> Proprietes { get; private set; }
+
+
+        public Joueur (string name, Pions pion)
         {
-            get
-            {
-                return _solde;
-            }
+            Solde = 1500;
+            Position = 0;
+            Proprietes = new List<CasePropriete>();
+
         }
 
 
@@ -44,6 +43,22 @@ namespace Exercice_Un.Models
             _position += resultDices[0] + resultDices[1];
             return resultDices[0]==resultDices[1];
 
+        }
+
+
+        public void EtrePayer(int montant)
+        {
+            //permet d'ajouter montant au solde du joueur
+        }
+
+        public void Payer(int montant)
+        {
+            //permet de diminuer solde du montant (solde peut pas <0)
+        }
+
+        public void AjouterPropriete(CasePropriete propriete)
+        {
+            //ajouter la propriete dans liste Propriete seulement si celle-ci a comme proprietaire le joueur 
         }
 
 
