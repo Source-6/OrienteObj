@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proprietes", "Proprietes\Proprietes.csproj", "{53E98B23-4BF3-476C-BB7F-D35B0C933557}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExoJustePrix", "ExoJustePrix\ExoJustePrix.csproj", "{632D6600-6FF7-4B09-B4F6-E1DE9C1DE685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExoBoucles", "ExoBoucles\ExoBoucles.csproj", "{9C8CF886-DB2C-4F83-9EEA-B6126B0FC80D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{53E98B23-4BF3-476C-BB7F-D35B0C933557}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53E98B23-4BF3-476C-BB7F-D35B0C933557}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53E98B23-4BF3-476C-BB7F-D35B0C933557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{632D6600-6FF7-4B09-B4F6-E1DE9C1DE685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{632D6600-6FF7-4B09-B4F6-E1DE9C1DE685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{632D6600-6FF7-4B09-B4F6-E1DE9C1DE685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632D6600-6FF7-4B09-B4F6-E1DE9C1DE685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C8CF886-DB2C-4F83-9EEA-B6126B0FC80D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C8CF886-DB2C-4F83-9EEA-B6126B0FC80D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C8CF886-DB2C-4F83-9EEA-B6126B0FC80D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C8CF886-DB2C-4F83-9EEA-B6126B0FC80D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
